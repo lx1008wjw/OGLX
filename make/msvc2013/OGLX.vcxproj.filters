@@ -1,0 +1,490 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="sgl">
+      <UniqueIdentifier>{079a286d-9f85-407d-ba41-0eb86b6624e8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="sgl\appearance">
+      <UniqueIdentifier>{66ee7947-a4e6-4108-8ed4-d185b0e29995}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="sgl\clipping">
+      <UniqueIdentifier>{1d190006-d1e6-474f-9f2d-462e9da02e69}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="sgl\errors">
+      <UniqueIdentifier>{28ef63fc-872e-45fb-979c-5add3d5768eb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="sgl\initialization">
+      <UniqueIdentifier>{bb357b19-8e38-49a7-b50c-073950b01a4f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="sgl\interactivity">
+      <UniqueIdentifier>{0176782c-ba2e-4165-89a9-a902628f3289}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="sgl\modes">
+      <UniqueIdentifier>{5d9825b3-50a3-4519-ab6d-2aef8e7bc4cc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="sgl\primitives">
+      <UniqueIdentifier>{4ab504a9-6509-4968-bd3f-a4dd55beaed6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="sgl\transformation">
+      <UniqueIdentifier>{a6ac016d-f812-463e-8b04-01c0850ed7f1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="sgl\text">
+      <UniqueIdentifier>{ed74f4ef-6c7d-4e69-8cce-e41d4b9d372e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="sgl\static_sequences">
+      <UniqueIdentifier>{4b187771-41be-4970-bd35-dfed61d3ce54}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="mth">
+      <UniqueIdentifier>{7a392131-141b-4278-803b-c8b399f87809}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\src\sgl\sgl_intern_data.c">
+      <Filter>sgl</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\sgl\sgl_shaders.c">
+      <Filter>sgl</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\sgl\sgl_utils.c">
+      <Filter>sgl</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\sgl\appearance\oglxBindTexture.c">
+      <Filter>sgl\appearance</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\sgl\appearance\oglxColor4f.c">
+      <Filter>sgl\appearance</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\sgl\appearance\oglxColor4fv.c">
+      <Filter>sgl\appearance</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\sgl\appearance\oglxSelectFont.c">
+      <Filter>sgl\appearance</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\sgl\appearance\sglBindTexture.c">
+      <Filter>sgl\appearance</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\sgl\appearance\sglFormatTexture.c">
+      <Filter>sgl\appearance</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\sgl\appearance\sglIndexColori.c">
+      <Filter>sgl\appearance</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\sgl\appearance\sglIndexFonti.c">
+      <Filter>sgl\appearance</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\sgl\appearance\sglIndexFontLineWidthi.c">
+      <Filter>sgl\appearance</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\sgl\appearance\sglIndexHaloColori.c">
+      <Filter>sgl\appearance</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\sgl\appearance\sglIndexLineStipplei.c">
+      <Filter>sgl\appearance</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\sgl\appearance\sglIndexLineWidthi.c">
+      <Filter>sgl\appearance</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\sgl\appearance\sglSetLineCaps.c">
+      <Filter>sgl\appearance</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\sgl\appearance\sglSetTextAlignment.c">
+      <Filter>sgl\appearance</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\sgl\appearance\sglTransparency8.c">
+      <Filter>sgl\appearance</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\sgl\clipping\sglAllocateMaskID.c">
+      <Filter>sgl\clipping</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\sgl\clipping\sglBeginScissor.c">
+      <Filter>sgl\clipping</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\sgl\clipping\sglClipBox.c">
+      <Filter>sgl\clipping</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\sgl\clipping\sglClipPlane.c">
+      <Filter>sgl\clipping</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\sgl\clipping\sglContinueStencil.c">
+      <Filter>sgl\clipping</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\sgl\clipping\sglEndScissor.c">
+      <Filter>sgl\clipping</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\sgl\clipping\sglFreeMaskID.c">
+      <Filter>sgl\clipping</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\sgl\clipping\sglGetActiveMasks.c">
+      <Filter>sgl\clipping</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\sgl\clipping\sglPointIsInsideScissors.c">
+      <Filter>sgl\clipping</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\sgl\clipping\sglRectangleIntersectsScissors.c">
+      <Filter>sgl\clipping</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\sgl\clipping\sglSetActiveMasks.c">
+      <Filter>sgl\clipping</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\sgl\errors\oglxSetError.c">
+      <Filter>sgl\errors</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\sgl\errors\sglClearErrors.c">
+      <Filter>sgl\errors</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\sgl\errors\sglGetErrors.c">
+      <Filter>sgl\errors</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\sgl\initialization\oglx_default_fonts.c">
+      <Filter>sgl\initialization</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\sgl\initialization\sglColorPointerf.c">
+      <Filter>sgl\initialization</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\sgl\initialization\sglCompressedTexImage2D.c">
+      <Filter>sgl\initialization</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\sgl\initialization\sglGetCurrentContext.c">
+      <Filter>sgl\initialization</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\sgl\initialization\sglGetVersion.c">
+      <Filter>sgl\initialization</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\sgl\initialization\sglInit.c">
+      <Filter>sgl\initialization</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\sgl\initialization\sglLineStipplePointer.c">
+      <Filter>sgl\initialization</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\sgl\initialization\sglLineWidthPointerf.c">
+      <Filter>sgl\initialization</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\sgl\initialization\sglReset.c">
+      <Filter>sgl\initialization</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\sgl\initialization\sglResetOpenGLSettings.c">
+      <Filter>sgl\initialization</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\sgl\initialization\sglSetCurrentContext.c">
+      <Filter>sgl\initialization</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\sgl\initialization\sglSetRenderMode.c">
+      <Filter>sgl\initialization</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\sgl\initialization\sglSetTextureInternalFormat.c">
+      <Filter>sgl\initialization</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\sgl\initialization\sglTerminate.c">
+      <Filter>sgl\initialization</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\sgl\initialization\sglTexImage2Dubv.c">
+      <Filter>sgl\initialization</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\sgl\initialization\sgluLoadFonts.c">
+      <Filter>sgl\initialization</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\sgl\interactivity\sglCircleActiveAreaGetAngle.c">
+      <Filter>sgl\interactivity</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\sgl\interactivity\sglCircleActiveAreaGetRate.c">
+      <Filter>sgl\interactivity</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\sgl\interactivity\sglCircleActiveAreaGetStatus.c">
+      <Filter>sgl\interactivity</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\sgl\interactivity\sglRectangleActiveAreaGetHeightRate.c">
+      <Filter>sgl\interactivity</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\sgl\interactivity\sglRectangleActiveAreaGetStatus.c">
+      <Filter>sgl\interactivity</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\sgl\interactivity\sglRectangleActiveAreaGetWidthRate.c">
+      <Filter>sgl\interactivity</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\sgl\interactivity\sglShapeActiveAreaGetStatus.c">
+      <Filter>sgl\interactivity</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\sgl\modes\oglxDisable.c">
+      <Filter>sgl\modes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\sgl\modes\oglxEnable.c">
+      <Filter>sgl\modes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\sgl\modes\sglDisable.c">
+      <Filter>sgl\modes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\sgl\modes\sglEnable.c">
+      <Filter>sgl\modes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\sgl\modes\sglRestoreStates.c">
+      <Filter>sgl\modes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\sgl\primitives\oglxDrawTexVertexArray.c">
+      <Filter>sgl\primitives</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\sgl\primitives\oglxDrawVertexArray.c">
+      <Filter>sgl\primitives</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\sgl\primitives\sgl_end.c">
+      <Filter>sgl\primitives</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\sgl\primitives\sgl_line.c">
+      <Filter>sgl\primitives</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\sgl\primitives\sglBegin.c">
+      <Filter>sgl\primitives</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\sgl\primitives\sglEnd.c">
+      <Filter>sgl\primitives</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\sgl\primitives\sglGetArcSegmentBounds.c">
+      <Filter>sgl\primitives</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\sgl\primitives\sglTexVertex4f.c">
+      <Filter>sgl\primitives</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\sgl\primitives\sgluArcCircleLinePointsList2f.c">
+      <Filter>sgl\primitives</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\sgl\primitives\sgluArcEllipse2f.c">
+      <Filter>sgl\primitives</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\sgl\primitives\sgluArcSector2f.c">
+      <Filter>sgl\primitives</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\sgl\primitives\sgluArcSegment.c">
+      <Filter>sgl\primitives</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\sgl\primitives\sgluCrown2f.c">
+      <Filter>sgl\primitives</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\sgl\primitives\sgluDrawBitmap.c">
+      <Filter>sgl\primitives</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\sgl\primitives\sglVertex2f.c">
+      <Filter>sgl\primitives</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\sgl\transformation\oglxLoadMatrixf.c">
+      <Filter>sgl\transformation</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\sgl\transformation\oglxPopMatrix.c">
+      <Filter>sgl\transformation</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\sgl\transformation\oglxPushMatrix.c">
+      <Filter>sgl\transformation</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\sgl\transformation\sglConvertPixelToPoint.c">
+      <Filter>sgl\transformation</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\sgl\transformation\sglConvertPointToPixel.c">
+      <Filter>sgl\transformation</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\sgl\transformation\sglConvertPointToScreen.c">
+      <Filter>sgl\transformation</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\sgl\transformation\sglConvertScreenToPoint.c">
+      <Filter>sgl\transformation</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\sgl\transformation\sglLoadIdentity.c">
+      <Filter>sgl\transformation</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\sgl\transformation\sglMatrixtf.c">
+      <Filter>sgl\transformation</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\sgl\transformation\sglOrtho.c">
+      <Filter>sgl\transformation</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\sgl\transformation\sglPopMatrix.c">
+      <Filter>sgl\transformation</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\sgl\transformation\sglPopMatrixAndTranslate.c">
+      <Filter>sgl\transformation</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\sgl\transformation\sglPushMatrix.c">
+      <Filter>sgl\transformation</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\sgl\transformation\sglPushMatrixAndTranslate.c">
+      <Filter>sgl\transformation</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\sgl\transformation\sglRotatef.c">
+      <Filter>sgl\transformation</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\sgl\transformation\sglScalef.c">
+      <Filter>sgl\transformation</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\sgl\transformation\sglTranslatef.c">
+      <Filter>sgl\transformation</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\sgl\transformation\sglViewport.c">
+      <Filter>sgl\transformation</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\sgl\text\oglx_fonts_encoding.c">
+      <Filter>sgl\text</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\sgl\text\sglGetFontValue.c">
+      <Filter>sgl\text</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\sgl\text\sglGetRichTextBounds.c">
+      <Filter>sgl\text</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\sgl\text\sglGetTextAreaBounds.c">
+      <Filter>sgl\text</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\sgl\text\sglGetTextAreaUnicodeBounds.c">
+      <Filter>sgl\text</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\sgl\text\sglGetTextMultilineBounds.c">
+      <Filter>sgl\text</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\sgl\text\sglGetTextMultilineUnicodeBounds.c">
+      <Filter>sgl\text</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\sgl\text\sglSetCharsetEncoding.c">
+      <Filter>sgl\text</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\sgl\text\sglSetDefaultRichTextAttributes.c">
+      <Filter>sgl\text</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\sgl\text\sglSetLinesSeparators.c">
+      <Filter>sgl\text</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\sgl\text\sglSetSecondFontAttributes.c">
+      <Filter>sgl\text</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\sgl\text\sglSetWordsSeparators.c">
+      <Filter>sgl\text</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\sgl\text\sgluWriteFloat.c">
+      <Filter>sgl\text</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\sgl\text\sgluWriteRichText.c">
+      <Filter>sgl\text</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\sgl\text\sgluWriteText.c">
+      <Filter>sgl\text</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\sgl\text\sgluWriteTextArea.c">
+      <Filter>sgl\text</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\sgl\text\sgluWriteUnicodeText.c">
+      <Filter>sgl\text</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\sgl\text\sgluWriteUnicodeTextArea.c">
+      <Filter>sgl\text</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\sgl\text\sgluWriteWideText.c">
+      <Filter>sgl\text</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\sgl\text\sgluWriteWideTextArea.c">
+      <Filter>sgl\text</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\sgl\text\str_functions.c">
+      <Filter>sgl\text</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\sgl\static_sequences\sglBeginStaticSequence.c">
+      <Filter>sgl\static_sequences</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\sgl\static_sequences\sglCallStaticSequence.c">
+      <Filter>sgl\static_sequences</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\sgl\static_sequences\sglCreateStaticBitmap.c">
+      <Filter>sgl\static_sequences</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\sgl\static_sequences\sglDrawStaticBitmap.c">
+      <Filter>sgl\static_sequences</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\sgl\static_sequences\sglEndStaticSequence.c">
+      <Filter>sgl\static_sequences</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\mth\mth_acos_degree.c">
+      <Filter>mth</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\mth\mth_atan_degree.c">
+      <Filter>mth</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\mth\mth_cos_degree.c">
+      <Filter>mth</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\mth\mth_cos_sin_degree.c">
+      <Filter>mth</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\mth\mth_functions.c">
+      <Filter>mth</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\mth\mth_next_higher_power2.c">
+      <Filter>mth</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\mth\mth_sin_degree.c">
+      <Filter>mth</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\mth\mth_sqrtf.c">
+      <Filter>mth</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\sgl\clipping\sglBeginMaskDefinition.c">
+      <Filter>sgl\clipping</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\sgl\clipping\sglEndMaskDefinition.c">
+      <Filter>sgl\clipping</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\sgl\primitives\sglBeginPath.c">
+      <Filter>sgl\primitives</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\sgl\primitives\sglClosePath.c">
+      <Filter>sgl\primitives</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\sgl\primitives\sglCubicBezier.c">
+      <Filter>sgl\primitives</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\sgl\primitives\sglCubicBezierBounds.c">
+      <Filter>sgl\primitives</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\sgl\primitives\sglEllipticalArc.c">
+      <Filter>sgl\primitives</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\sgl\primitives\sglEllipticalArcBounds.c">
+      <Filter>sgl\primitives</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\sgl\primitives\sglEndPath.c">
+      <Filter>sgl\primitives</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\sgl\primitives\sglHorizontalLineTo.c">
+      <Filter>sgl\primitives</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\sgl\primitives\sglLineTo.c">
+      <Filter>sgl\primitives</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\sgl\primitives\sglMoveTo.c">
+      <Filter>sgl\primitives</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\sgl\primitives\sglQuadraticBezier.c">
+      <Filter>sgl\primitives</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\sgl\primitives\sglQuadraticBezierBounds.c">
+      <Filter>sgl\primitives</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\sgl\primitives\sglSmoothCubicBezier.c">
+      <Filter>sgl\primitives</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\sgl\primitives\sglSmoothCubicBezierBounds.c">
+      <Filter>sgl\primitives</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\sgl\primitives\sglSmoothQuadraticBezier.c">
+      <Filter>sgl\primitives</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\sgl\primitives\sglSmoothQuadraticBezierBounds.c">
+      <Filter>sgl\primitives</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\sgl\primitives\sglVerticalLineTo.c">
+      <Filter>sgl\primitives</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\sgl\initialization\sglGradientTexture.c">
+      <Filter>sgl\initialization</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\sgl\appearance\sglFormatGradient.c">
+      <Filter>sgl\appearance</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\sgl\appearance\sglIndexGradienti.c">
+      <Filter>sgl\appearance</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

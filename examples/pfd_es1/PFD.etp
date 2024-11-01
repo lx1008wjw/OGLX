@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Project id="1" oid_count="48" defaultConfiguration="16">
+	<props>
+		<Prop id="1" name="@STUDIO:PRODUCT">
+			<value>DISPLAY</value>
+		</Prop>
+		<Prop id="3" name="@SDY:RELEASE">
+			<value>19.0</value>
+		</Prop>
+		<Prop id="4" name="@SDY:RATIO">
+			<value>1.0</value>
+			<value>1.0</value>
+		</Prop>
+		<Prop id="5" name="@SDY:DEFAULTCOLORTABLE">
+			<value>PrimaryFlightDisplay.sct</value>
+		</Prop>
+		<Prop id="6" name="@SDY:DEFAULTLWTABLE">
+			<value>PrimaryFlightDisplay.swt</value>
+		</Prop>
+		<Prop id="7" name="@SDY:DEFAULTLSTABLE">
+			<value>PrimaryFlightDisplay.sst</value>
+		</Prop>
+		<Prop id="8" name="@SDY:TEXTURETABLE">
+			<value>PrimaryFlightDisplay.stt</value>
+		</Prop>
+		<Prop id="9" name="@SDY:FONTTABLE">
+			<value>PrimaryFlightDisplay.sft</value>
+		</Prop>
+		<Prop id="10" name="@SDY:FONTLIBRARY">
+			<value>Fonts.dll</value>
+		</Prop>
+		<Prop id="29" name="@SDY:CONFTARGET">
+			<value>codegen</value>
+			<configuration>28</configuration>
+		</Prop>
+		<Prop id="30" name="CONFIGURATIONS">
+			<value>28</value>
+			<value>36</value>
+		</Prop>
+		<Prop id="31" name="@SDY:CONFSOURCE">
+			<value>PrimaryFlightDisplay.sgfx</value>
+			<configuration>28</configuration>
+		</Prop>
+		<Prop id="32" name="@SDY:KCGTEMPLATE">
+			<configuration>28</configuration>
+		</Prop>
+		<Prop id="33" name="@SDY:CONFOUTPUT">
+			<value>code</value>
+			<configuration>28</configuration>
+		</Prop>
+		<Prop id="34" name="@SDY:CODEGENERATOR">
+			<value>KCG66</value>
+			<configuration>28</configuration>
+		</Prop>
+		<Prop id="35" name="@SDY:CODEGENCHECK">
+			<value>false</value>
+			<configuration>28</configuration>
+		</Prop>
+		<Prop id="37" name="@SDY:CONFTARGET">
+			<value>Windows</value>
+			<configuration>36</configuration>
+		</Prop>
+		<Prop id="38" name="@SDY:CONFSOURCE">
+			<value>PrimaryFlightDisplay.sgfx</value>
+			<configuration>36</configuration>
+		</Prop>
+		<Prop id="39" name="@SDY:KCGTEMPLATE">
+			<configuration>36</configuration>
+		</Prop>
+		<Prop id="40" name="@SDY:CONFOUTPUT">
+			<value>%ModelName%_Exe</value>
+			<configuration>36</configuration>
+		</Prop>
+		<Prop id="41" name="@SDY:APPPERIODICITY">
+			<value>33</value>
+			<configuration>36</configuration>
+		</Prop>
+		<Prop id="42" name="@SDY:POINTERID">
+			<value>0</value>
+			<configuration>36</configuration>
+		</Prop>
+		<Prop id="43" name="@SDY:KEYBOARDID">
+			<value>0</value>
+			<configuration>36</configuration>
+		</Prop>
+	</props>
+	<roots>
+		<Folder id="11" extensions="sct;swt;sst;sft;stt" name="Resource Files">
+			<elements>
+				<FileRef id="21" persistAs="PrimaryFlightDisplay.sct"/>
+				<FileRef id="23" persistAs="PrimaryFlightDisplay.swt"/>
+				<FileRef id="25" persistAs="PrimaryFlightDisplay.sst"/>
+				<FileRef id="27" persistAs="PrimaryFlightDisplay.stt"/>
+				<FileRef id="44" persistAs="PrimaryFlightDisplay.sft"/>
+			</elements>
+		</Folder>
+		<Folder id="19" extensions="sgfx" name="Model Files">
+			<elements>
+				<FileRef id="20" persistAs="PrimaryFlightDisplay.sgfx">
+					<props>
+						<Prop id="22" name="@SDY:MODELCOLORTABLE">
+							<value>PrimaryFlightDisplay.sct</value>
+						</Prop>
+						<Prop id="24" name="@SDY:MODELLWTABLE">
+							<value>PrimaryFlightDisplay.swt</value>
+						</Prop>
+						<Prop id="26" name="@SDY:MODELLSTABLE">
+							<value>PrimaryFlightDisplay.sst</value>
+						</Prop>
+					</props>
+				</FileRef>
+			</elements>
+		</Folder>
+	</roots>
+	<configurations>
+		<Configuration id="16" name="Simulation"/>
+		<Configuration id="28" name="Code generation: PrimaryFlightDisplay"/>
+		<Configuration id="36" name="Windows: PrimaryFlightDisplay"/>
+	</configurations>
+</Project>

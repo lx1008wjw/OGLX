@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?dom version="19.0" ?>
+
+<fontTable generateAsBitmap="false" generateHalo="true" name="font_table" size="6">
+    <fontDefinition index="0" path="Font T1.nfd"/>
+    <fontDefinition index="1" path="Font T2.nfd"/>
+    <fontDefinition index="2" path="Font T3.nfd"/>
+    <fontDefinition index="3" path="Font T4.nfd"/>
+    <fontDefinition index="4" path="Font T5.nfd"/>
+    <fontDefinition index="5" path="Sans18.nfd"/>
+</fontTable>
+
+<!-- crc32 : 3172503094 -->
+

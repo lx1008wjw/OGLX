@@ -1,0 +1,23 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 10.00
+# Visual Studio 2008
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "oglx_application", "oglx_application.vcproj", "{17B9B0BB-015B-4D3B-8F4D-4B00B898830B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		ES1 Debug|Win32 = ES1 Debug|Win32
+		ES1 Release|Win32 = ES1 Release|Win32
+		OGL ES1 Release|Win32 = OGL ES1 Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{17B9B0BB-015B-4D3B-8F4D-4B00B898830B}.ES1 Debug|Win32.ActiveCfg = ES1 Debug|Win32
+		{17B9B0BB-015B-4D3B-8F4D-4B00B898830B}.ES1 Debug|Win32.Build.0 = ES1 Debug|Win32
+		{17B9B0BB-015B-4D3B-8F4D-4B00B898830B}.ES1 Release|Win32.ActiveCfg = ES1 Release|Win32
+		{17B9B0BB-015B-4D3B-8F4D-4B00B898830B}.ES1 Release|Win32.Build.0 = ES1 Release|Win32
+		{17B9B0BB-015B-4D3B-8F4D-4B00B898830B}.OGL ES1 Release|Win32.ActiveCfg = OGL ES1 Release|Win32
+		{17B9B0BB-015B-4D3B-8F4D-4B00B898830B}.OGL ES1 Release|Win32.Build.0 = OGL ES1 Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

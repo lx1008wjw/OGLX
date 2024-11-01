@@ -1,0 +1,46 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Code">
+      <UniqueIdentifier>{404eddbe-f4ef-4061-951f-2a07cf5ba8a6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Src">
+      <UniqueIdentifier>{f63d7fdc-75d1-4aac-a086-ef189af04815}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\code\aol_color_table.c">
+      <Filter>Code</Filter>
+    </ClCompile>
+    <ClCompile Include="..\code\aol_font_table.c">
+      <Filter>Code</Filter>
+    </ClCompile>
+    <ClCompile Include="..\code\aol_line_stipple_table.c">
+      <Filter>Code</Filter>
+    </ClCompile>
+    <ClCompile Include="..\code\aol_line_width_table.c">
+      <Filter>Code</Filter>
+    </ClCompile>
+    <ClCompile Include="..\code\aol_symbology_layer.c">
+      <Filter>Code</Filter>
+    </ClCompile>
+    <ClCompile Include="..\code\aol_texture_table.c">
+      <Filter>Code</Filter>
+    </ClCompile>
+    <ClCompile Include="..\code\target_configuration.c">
+      <Filter>Code</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\animation.c">
+      <Filter>Src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\main.c">
+      <Filter>Src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\extras\utils\src\oglxReadErrors.c">
+      <Filter>Src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\specific.c">
+      <Filter>Src</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

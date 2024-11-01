@@ -1,0 +1,100 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.30501.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "OGLX", "OGLX.vcxproj", "{4111AA69-B928-480B-90B6-6D4E44F64FBA}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug DLL|Win32 = Debug DLL|Win32
+		Debug DLL|x64 = Debug DLL|x64
+		Debug|Win32 = Debug|Win32
+		Debug|x64 = Debug|x64
+		ES1 Debug|Win32 = ES1 Debug|Win32
+		ES1 Debug|x64 = ES1 Debug|x64
+		ES1 Release|Win32 = ES1 Release|Win32
+		ES1 Release|x64 = ES1 Release|x64
+		ES2 Debug|Win32 = ES2 Debug|Win32
+		ES2 Debug|x64 = ES2 Debug|x64
+		ES2 Release|Win32 = ES2 Release|Win32
+		ES2 Release|x64 = ES2 Release|x64
+		GL13 debug|Win32 = GL13 debug|Win32
+		GL13 debug|x64 = GL13 debug|x64
+		GL13|Win32 = GL13|Win32
+		GL13|x64 = GL13|x64
+		Release DLL|Win32 = Release DLL|Win32
+		Release DLL|x64 = Release DLL|x64
+		Release|Win32 = Release|Win32
+		Release|x64 = Release|x64
+		SC Debug|Win32 = SC Debug|Win32
+		SC Debug|x64 = SC Debug|x64
+		SC Release|Win32 = SC Release|Win32
+		SC Release|x64 = SC Release|x64
+		SC2 Debug|Win32 = SC2 Debug|Win32
+		SC2 Debug|x64 = SC2 Debug|x64
+		SC2 Release|Win32 = SC2 Release|Win32
+		SC2 Release|x64 = SC2 Release|x64
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4111AA69-B928-480B-90B6-6D4E44F64FBA}.Debug DLL|Win32.ActiveCfg = Debug DLL|Win32
+		{4111AA69-B928-480B-90B6-6D4E44F64FBA}.Debug DLL|Win32.Build.0 = Debug DLL|Win32
+		{4111AA69-B928-480B-90B6-6D4E44F64FBA}.Debug DLL|x64.ActiveCfg = Debug DLL|x64
+		{4111AA69-B928-480B-90B6-6D4E44F64FBA}.Debug DLL|x64.Build.0 = Debug DLL|x64
+		{4111AA69-B928-480B-90B6-6D4E44F64FBA}.Debug|Win32.ActiveCfg = Debug|Win32
+		{4111AA69-B928-480B-90B6-6D4E44F64FBA}.Debug|Win32.Build.0 = Debug|Win32
+		{4111AA69-B928-480B-90B6-6D4E44F64FBA}.Debug|x64.ActiveCfg = Debug|x64
+		{4111AA69-B928-480B-90B6-6D4E44F64FBA}.Debug|x64.Build.0 = Debug|x64
+		{4111AA69-B928-480B-90B6-6D4E44F64FBA}.ES1 Debug|Win32.ActiveCfg = ES1 Debug|Win32
+		{4111AA69-B928-480B-90B6-6D4E44F64FBA}.ES1 Debug|Win32.Build.0 = ES1 Debug|Win32
+		{4111AA69-B928-480B-90B6-6D4E44F64FBA}.ES1 Debug|x64.ActiveCfg = ES1 Debug|x64
+		{4111AA69-B928-480B-90B6-6D4E44F64FBA}.ES1 Debug|x64.Build.0 = ES1 Debug|x64
+		{4111AA69-B928-480B-90B6-6D4E44F64FBA}.ES1 Release|Win32.ActiveCfg = GL13 debug|Win32
+		{4111AA69-B928-480B-90B6-6D4E44F64FBA}.ES1 Release|Win32.Build.0 = GL13 debug|Win32
+		{4111AA69-B928-480B-90B6-6D4E44F64FBA}.ES1 Release|x64.ActiveCfg = ES1 Release|x64
+		{4111AA69-B928-480B-90B6-6D4E44F64FBA}.ES1 Release|x64.Build.0 = ES1 Release|x64
+		{4111AA69-B928-480B-90B6-6D4E44F64FBA}.ES2 Debug|Win32.ActiveCfg = ES2 Debug|Win32
+		{4111AA69-B928-480B-90B6-6D4E44F64FBA}.ES2 Debug|Win32.Build.0 = ES2 Debug|Win32
+		{4111AA69-B928-480B-90B6-6D4E44F64FBA}.ES2 Debug|x64.ActiveCfg = ES2 Debug|x64
+		{4111AA69-B928-480B-90B6-6D4E44F64FBA}.ES2 Debug|x64.Build.0 = ES2 Debug|x64
+		{4111AA69-B928-480B-90B6-6D4E44F64FBA}.ES2 Release|Win32.ActiveCfg = ES2 Release|Win32
+		{4111AA69-B928-480B-90B6-6D4E44F64FBA}.ES2 Release|Win32.Build.0 = ES2 Release|Win32
+		{4111AA69-B928-480B-90B6-6D4E44F64FBA}.ES2 Release|x64.ActiveCfg = ES2 Release|x64
+		{4111AA69-B928-480B-90B6-6D4E44F64FBA}.ES2 Release|x64.Build.0 = ES2 Release|x64
+		{4111AA69-B928-480B-90B6-6D4E44F64FBA}.GL13 debug|Win32.ActiveCfg = GL13 debug|Win32
+		{4111AA69-B928-480B-90B6-6D4E44F64FBA}.GL13 debug|Win32.Build.0 = GL13 debug|Win32
+		{4111AA69-B928-480B-90B6-6D4E44F64FBA}.GL13 debug|x64.ActiveCfg = GL13 debug|x64
+		{4111AA69-B928-480B-90B6-6D4E44F64FBA}.GL13 debug|x64.Build.0 = GL13 debug|x64
+		{4111AA69-B928-480B-90B6-6D4E44F64FBA}.GL13|Win32.ActiveCfg = GL13|Win32
+		{4111AA69-B928-480B-90B6-6D4E44F64FBA}.GL13|Win32.Build.0 = GL13|Win32
+		{4111AA69-B928-480B-90B6-6D4E44F64FBA}.GL13|x64.ActiveCfg = GL13|x64
+		{4111AA69-B928-480B-90B6-6D4E44F64FBA}.GL13|x64.Build.0 = GL13|x64
+		{4111AA69-B928-480B-90B6-6D4E44F64FBA}.Release DLL|Win32.ActiveCfg = Release DLL|Win32
+		{4111AA69-B928-480B-90B6-6D4E44F64FBA}.Release DLL|Win32.Build.0 = Release DLL|Win32
+		{4111AA69-B928-480B-90B6-6D4E44F64FBA}.Release DLL|x64.ActiveCfg = Release DLL|x64
+		{4111AA69-B928-480B-90B6-6D4E44F64FBA}.Release DLL|x64.Build.0 = Release DLL|x64
+		{4111AA69-B928-480B-90B6-6D4E44F64FBA}.Release|Win32.ActiveCfg = Release|Win32
+		{4111AA69-B928-480B-90B6-6D4E44F64FBA}.Release|Win32.Build.0 = Release|Win32
+		{4111AA69-B928-480B-90B6-6D4E44F64FBA}.Release|x64.ActiveCfg = Release|x64
+		{4111AA69-B928-480B-90B6-6D4E44F64FBA}.Release|x64.Build.0 = Release|x64
+		{4111AA69-B928-480B-90B6-6D4E44F64FBA}.SC Debug|Win32.ActiveCfg = SC Debug|Win32
+		{4111AA69-B928-480B-90B6-6D4E44F64FBA}.SC Debug|Win32.Build.0 = SC Debug|Win32
+		{4111AA69-B928-480B-90B6-6D4E44F64FBA}.SC Debug|x64.ActiveCfg = SC Debug|x64
+		{4111AA69-B928-480B-90B6-6D4E44F64FBA}.SC Debug|x64.Build.0 = SC Debug|x64
+		{4111AA69-B928-480B-90B6-6D4E44F64FBA}.SC Release|Win32.ActiveCfg = SC Release|Win32
+		{4111AA69-B928-480B-90B6-6D4E44F64FBA}.SC Release|Win32.Build.0 = SC Release|Win32
+		{4111AA69-B928-480B-90B6-6D4E44F64FBA}.SC Release|x64.ActiveCfg = SC Release|x64
+		{4111AA69-B928-480B-90B6-6D4E44F64FBA}.SC Release|x64.Build.0 = SC Release|x64
+		{4111AA69-B928-480B-90B6-6D4E44F64FBA}.SC2 Debug|Win32.ActiveCfg = SC2 Debug|Win32
+		{4111AA69-B928-480B-90B6-6D4E44F64FBA}.SC2 Debug|Win32.Build.0 = SC2 Debug|Win32
+		{4111AA69-B928-480B-90B6-6D4E44F64FBA}.SC2 Debug|x64.ActiveCfg = SC2 Debug|x64
+		{4111AA69-B928-480B-90B6-6D4E44F64FBA}.SC2 Debug|x64.Build.0 = SC2 Debug|x64
+		{4111AA69-B928-480B-90B6-6D4E44F64FBA}.SC2 Release|Win32.ActiveCfg = SC2 Release|Win32
+		{4111AA69-B928-480B-90B6-6D4E44F64FBA}.SC2 Release|Win32.Build.0 = SC2 Release|Win32
+		{4111AA69-B928-480B-90B6-6D4E44F64FBA}.SC2 Release|x64.ActiveCfg = SC2 Release|x64
+		{4111AA69-B928-480B-90B6-6D4E44F64FBA}.SC2 Release|x64.Build.0 = SC2 Release|x64
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
