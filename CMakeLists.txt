@@ -9,9 +9,19 @@ target_include_directories(${PROJECT_NAME}
     PUBLIC 
         $<BUILD_INTERFACE:${CMAKE_CURRENT_SOURCE_DIR}/include>
         $<BUILD_INTERFACE:${CMAKE_CURRENT_SOURCE_DIR}/extras/utils/include>
-        $<INSTALL_INTERFACE:include> # 安装时包含路径
-        $<INSTALL_INTERFACE:extras/utils/include> # 安装时包含路径
+        $<INSTALL_INTERFACE:include>
+        $<INSTALL_INTERFACE:extras/utils/include>
 )
 target_include_directories(${PROJECT_NAME} PRIVATE src/sgl)
 target_include_directories(${PROJECT_NAME} PRIVATE src/mth)
 
+
+install(TARGETS OGLX
+EXPORT OGLX 
+RUNTIME DESTINATION ${CMAKE_CURRENT_SOURCE_DIR}/bin 
+ARCHIVE DESTINATION ${CMAKE_CURRENT_SOURCE_DIR}/lib 
+PUBLIC_HEADER DESTINATION ${CMAKE_CURRENT_SOURCE_DIR}/include 
+)
+install(EXPORT OGLX
+FILE oglxConfig.cmake DESTINATION ${CMAKE_CURRENT_SOURCE_DIR}/config 
+)
